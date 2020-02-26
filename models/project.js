@@ -17,5 +17,5 @@ var ProjectSchema = Schema({
 });
 
 module.exports = mongoose.model('Project', ProjectSchema);
-//mongoose agrega el primer parametro como coleccion, lo pone en minusculas u lo pluraliza
+//mongoose agrega el primer parametro como coleccion, lo pone en minusculas y lo pluraliza
 //entonces: projects --> guarda los documentos en la coleccion
