@@ -10,10 +10,11 @@ var Schema = mongoose.Schema;
 //Esquema de project, objeto molde, se pasa un objeto Json con las propiedades
 var ProjectSchema = Schema({
     name: String,
-    descripcion: String,
-    categoria: String,
+    description: String,
+    category: String,
     year: Number,
-    languages : [String]
+    langs : String,
+    image : String
 });
 
 module.exports = mongoose.model('Project', ProjectSchema);
